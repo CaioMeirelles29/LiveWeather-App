@@ -1,7 +1,7 @@
 import requests
+import api_token
 
-
-api_key = "2133d0858b09e0dc2dcff5c2cc29c7e0"
+api_key = api_token
 
 user_input = input("Selecione a cidade: ")
 city_name = user_input
